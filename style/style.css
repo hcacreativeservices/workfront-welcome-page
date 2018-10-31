@@ -211,6 +211,10 @@
     .no-bs .hero .btn {
         padding: 15px 60px;
     }
+
+    .user-guide .btn {
+        display: block;
+    }
 }
 
 @media (min-width: 1700px) {
