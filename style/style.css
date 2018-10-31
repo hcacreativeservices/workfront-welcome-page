@@ -121,6 +121,15 @@
     width: 35px;
 }
 
+.user-guide {
+    text-align: center;
+}
+
+.user-guide .btn {
+    padding: 15px;
+    width: 100%;
+}
+
 
 @media (min-width: 768px) {
     .no-bs .btn {
@@ -134,6 +143,10 @@
 
     .service p {
         font-size: 20px;
+    }
+
+    .navigating-workfront .headline {
+        margin-bottom: 60px;
     }
 }
 
@@ -181,6 +194,11 @@
     .service {
         padding: 0 10px;
     }
+
+    .user-guide .btn {
+        max-width: 350px;
+        margin: 0 auto;
+    }
 }
 
 @media (min-width: 1400px) {
@@ -190,13 +208,13 @@
 }
 
 @media (min-width: 1600px) {
-    .no-bs .btn {
+    .no-bs .hero .btn {
         padding: 15px 60px;
     }
 }
 
 @media (min-width: 1700px) {
-    .no-bs .btn {
+    .no-bs .hero .btn {
         padding: 15px 100px;
     }
 }
