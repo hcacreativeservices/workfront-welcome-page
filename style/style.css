@@ -64,7 +64,7 @@
 }
 
 .grey-bg {
-    background-color: #ede9e6;
+    background-color: #D9D9D6;
 }
 
 .hello,
@@ -97,6 +97,11 @@
     margin-bottom: 30px;
 }
 
+.service-container .cta {
+    color: #001641;
+    font-weight: 700;
+}
+
 .services {
     display: flex;
     flex-wrap: wrap;
@@ -112,7 +117,7 @@
 
 .service p {
     color: #001641;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 18px;
 }
 
@@ -145,8 +150,19 @@
         font-size: 20px;
     }
 
+    .service {
+        flex-basis: auto;
+        padding: 0 5px;
+    }
+
     .navigating-workfront .headline {
         margin-bottom: 60px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .service img {
+        display: none;
     }
 }
 
@@ -169,11 +185,6 @@
 
     .hello p {
         max-width: 545px;
-    }
-
-    .service {
-        flex-basis: auto;
-        padding: 0 5px;
     }
 
     .service p {
@@ -199,11 +210,27 @@
         max-width: 350px;
         margin: 0 auto;
     }
+
+    .user-guide .icon {
+        height: 130px;
+    }
+
+    .navigating-workfront iframe {
+        height: 200px;
+    }
 }
 
 @media (min-width: 1400px) {
     .no-bs .btn {
         font-size: 22px;
+    }
+
+    .user-guide .icon {
+        height: 150px;
+    }
+
+    .navigating-workfront iframe {
+        height: 230px;
     }
 }
 
@@ -215,10 +242,26 @@
     .user-guide .btn {
         display: block;
     }
+
+    .user-guide .icon {
+        height: 180px;
+    }
+
+    .navigating-workfront iframe {
+        height: 260px;
+    }
 }
 
 @media (min-width: 1700px) {
     .no-bs .hero .btn {
         padding: 15px 100px;
+    }
+
+    .user-guide .icon {
+        height: 200px;
+    }
+
+    .navigating-workfront iframe {
+        height: 280px;
     }
 }
