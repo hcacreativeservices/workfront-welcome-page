@@ -15,9 +15,10 @@
 }
 
 .no-bs .btn {
-    background-color: #e05929;
+    background-color: transparent;
+    border: 2px solid #e05929;
     border-radius: 0;
-    color: #fff;
+    color: #e05929;
     font-family: 'Arimo', sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -27,7 +28,8 @@
 }
 
 .no-bs .btn:hover {
-    background-color: #001641;
+    background-color: #e05929;
+    color: #fff;
 }
 
 .no-bs h1 {
@@ -60,11 +62,16 @@
 }
 
 .hero .btn {
-    width: 100%;
+    width: 80%;
+}
+
+.hero .icon {
+    padding-bottom: 12px;
+    width: 150px;
 }
 
 .grey-bg {
-    background-color: #D9D9D6;
+    background-color: rgba(217,217,214,.5);
 }
 
 .hello,
@@ -141,6 +148,12 @@
         font-size: 16px;
     }
 
+    .no-bs .hero .btn {
+        font-size: 12px;
+        padding: 10px 15px;
+        height: 60px;
+    }
+
     .hello p {
         max-width: 525px;
         margin: 0 auto;
@@ -151,18 +164,21 @@
     }
 
     .service {
+        border-right: 2px solid #e05929;
         flex-basis: auto;
-        padding: 0 5px;
+        padding: 0 10px;
+    }
+
+    .service:last-of-type {
+        border-right: none;
+    }
+
+    .service img {
+        display: none;
     }
 
     .navigating-workfront .headline {
         margin-bottom: 60px;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 992px) {
-    .service img {
-        display: none;
     }
 }
 
@@ -183,6 +199,12 @@
         font-size: 22px;
     }
 
+    .no-bs .hero .btn {
+        font-size: 14px;
+        padding: 15px;
+        height: 75px;
+    }
+
     .hello p {
         max-width: 545px;
     }
@@ -190,12 +212,33 @@
     .service p {
         font-size: 22px;
     }
+
+    .user-guide .icon {
+        height: 110px;
+    }
+
+    .no-bs .user-guide .btn {
+        font-size: 14px;
+        padding: 10px 25px;
+        width: 80%;
+    }
+
+    .navigating-workfront iframe {
+        height: 160px;
+    }
 }
 
 @media (min-width: 1200px) {
     .no-bs .btn {
         font-size: 20px;
         padding: 15px 40px;
+    }
+
+    .no-bs .hero .btn {
+        width: 100%;
+        font-size: 16px;
+        padding: 16px 15px;
+        height: 60px;
     }
 
     .workfront p {
@@ -206,9 +249,11 @@
         padding: 0 10px;
     }
 
-    .user-guide .btn {
+    .no-bs .user-guide .btn {
+        font-size: 16px;
         max-width: 350px;
         margin: 0 auto;
+        padding: 15px 25px;
     }
 
     .user-guide .icon {
@@ -225,6 +270,10 @@
         font-size: 22px;
     }
 
+    .no-bs .hero .btn {
+        font-size: 18px;
+    }
+
     .user-guide .icon {
         height: 150px;
     }
@@ -236,7 +285,8 @@
 
 @media (min-width: 1600px) {
     .no-bs .hero .btn {
-        padding: 15px 60px;
+        padding: 15px 10px;
+        width: 80%;
     }
 
     .user-guide .btn {
@@ -254,7 +304,7 @@
 
 @media (min-width: 1700px) {
     .no-bs .hero .btn {
-        padding: 15px 100px;
+        width: 75%;
     }
 
     .user-guide .icon {
