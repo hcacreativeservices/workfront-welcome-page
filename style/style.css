@@ -66,6 +66,8 @@
 }
 
 .hero .icon {
+    display: block;
+    margin: 0 auto;
     padding-bottom: 12px;
     width: 150px;
 }
