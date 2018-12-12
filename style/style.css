@@ -182,6 +182,12 @@
     }
 }
 
+@media (min-width: 775px) {
+    .no-bs .hero .btn {
+        height: 42px;
+    }
+}
+
 @media (min-width: 992px) {
     .section {
         padding: 80px;
@@ -202,7 +208,7 @@
     .no-bs .hero .btn {
         font-size: 14px;
         padding: 15px;
-        height: 75px;
+        height: 56px;
     }
 
     .hello p {
