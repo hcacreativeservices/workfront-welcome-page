@@ -74,6 +74,10 @@ h3 {
   padding: 15px 40px;
 }
 
+.corporate .hero h1 {
+  color: #0b173d;
+}
+
 .description {
   color: #54575a;
   font-size: 16px;
@@ -168,6 +172,10 @@ h3,
   .btn {
     margin-top: 0;
   }
+
+  .corporate .hero {
+    background-image: url("../img/WF\ Landing\ Page\ Hero\ Image-no\ copy_MW\ Landing\ Page\ Corporate.png");
+  }
   .division .hero {
     background-image: url("../img/WF\ Landing\ Page\ Hero\ Image-no\ copy_MW\ Landing\ Page\ Division.png");
   }
@@ -192,6 +200,10 @@ h3,
 
   .hero h1 {
     font-size: 36px;
+  }
+
+  .marketing-resources.flex-items {
+    justify-content: flex-start;
   }
 }
 
