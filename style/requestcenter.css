@@ -139,7 +139,7 @@ footer.flex-items {
   align-items: center;
   border: 1px solid #d9d9d6;
   display: flex;
-  margin: 15px;
+  margin: 15px 5px;
   padding: 20px;
 }
 
@@ -192,6 +192,11 @@ h3,
 
 .requests a:hover {
   background-color: rgba(217, 217, 214, 0.5);
+  text-decoration: none;
+}
+
+.requests a:hover .title {
+  text-decoration: underline;
 }
 
 .requests .title {
