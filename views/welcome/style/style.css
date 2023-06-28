@@ -92,11 +92,13 @@ h2 {
     font-size: 14px;
 }
 
-.btn-primary:hover {
+.btn-primary:hover,
+.btn-primary.emphasis {
     background-color: #E45831;
 }
 
-.btn:hover a {
+.btn:hover a,
+.btn-primary.emphasis a {
     color: #fff;
 }
 
